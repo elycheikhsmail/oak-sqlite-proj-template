@@ -1,0 +1,64 @@
+ est it possible d'himiter le mode offline du navagiteur dev tools en deno environement ?
+  
+ conventions
+ - les nom des apps commence par app-
+ - le fichier sql don't l'execution cree les tables se trouve dans 
+   app-<x>/config/db/sqlie.sql
+   app-<x>/config/db/mysql.sql
+   app-<x>/config/db/pg.sql
+   c'est qui permet de creer une command globale pour creer les tables de tous les apps
+
+-space name tables
+app_<appName>_tableName
+   
+
+
+
+changer deps url1 to url2 ??     
+ 
+check de deno version compare it with deno test with the project emit warnig when needed
+
+
+
+
+[x] generate rest-api-crud based oak-sqlite
+  ||
+  \/
+
+app-auth
+  [x] jwt 
+  [x] register 
+  [x] login
+  
+  [x] beautify code
+
+   [x] test app-todo
+   [x] test-auth
+   [x] test app-foo
+
+  [x]  foalts pour standariser rest-api -crud
+  test
+   fastapi stand auth 
+  test
+  generer les fichier de test based on data schema version mysql
+  generer une crud pret a l'emploi une fois la base et les tables sont creer version mysql
+  xampp dev deps
+  utiliser phphmyadmin interface pour decrire les tables de sqlite pour generer complete crud pret a l'emploi
+
+
+
+  data validation ? "ma"nuellement" maintentant  et a etudier dans les future version
+  test
+  actualise gController template avec les dernieres actualisation des todo-app
+  archive sql pour le test
+  test
+  access protected url test
+   ||
+   \/
+generate complete sql-crud controller
+   ||
+   \/
+ready_backend
+
+
+ 
